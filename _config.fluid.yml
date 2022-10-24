@@ -118,3 +118,17 @@ deploy:
   type: git
   repository: git@github.com:lambert-pro/lambert-pro.github.io.git
   branch: main
+
+#关于我
+about:
+  avatar: /images/avatar/avatar.jpeg
+  name: "Lambert"
+  intro: "柳暗花明又一村"
+  icons:
+    - { class: 'iconfont icon-github-fill', link: 'https://lambert-pro.github.io', tip: 'GitHub' }
+    - { class: 'iconfont icon-wechat-fill', qrcode: '/images/about/wechat.jpeg' }
+    - { class: 'iconfont icon-qq-fill', qrcode: '/images/about/qq.jpeg' }
+
+page:
+  banner_img_height: 60
+  banner_mask_alpha: 0.5
